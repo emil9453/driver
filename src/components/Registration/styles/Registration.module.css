@@ -1,0 +1,22 @@
+.title {
+  font-size: 21px;
+}
+
+.subtitle {
+  font-size: 14px;
+}
+
+.link {
+  color: var(--link-color);
+}
+
+.link:hover {
+  color: var(--link-color-hover);
+}
+
+.container {
+  max-width: 33%;
+  margin-top: 120px;
+  background: white;
+  padding: 20px;
+}

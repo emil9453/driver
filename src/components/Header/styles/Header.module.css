@@ -1,0 +1,28 @@
+.header {
+    background: white;
+    line-height: 50px;
+    justify-content: space-between;
+}
+
+
+.header .menuItem {
+    font-size: 18px;
+    text-decoration: none;
+    color: inherit; 
+}
+
+.header .menuItem:hover {
+    background-color: #e9eaee;
+}
+
+.header .logIn {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 100px;
+    display: inline-block;
+    justify-content: center;
+    margin-left: auto;
+    text-align: center;
+    width: 100px;
+    border: 0;
+}
