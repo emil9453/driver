@@ -1,0 +1,7 @@
+.wrapper { 
+  display: flex;
+}
+
+.formContainer{
+  border-radius: 20px;
+}

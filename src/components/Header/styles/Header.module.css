@@ -1,0 +1,30 @@
+.header {
+    background: white;
+    line-height: 50px;
+    justify-content: space-between;
+}
+
+
+.infoTitle{
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.infoText{
+  opacity: 0.8;
+}
+
+.header .menuItem {
+    font-size: 18px;
+    text-decoration: none;
+    color: inherit; 
+}
+
+.header .menuItem:hover {
+    background-color: #e9eaee;
+}
+
+.header .toggler {
+    border: none;
+}

@@ -1,0 +1,39 @@
+.title {
+  font-size: 55px;
+  word-spacing: 5px;
+  line-height: normal;
+  font-weight: 600;
+  margin-top: 140px;
+}
+
+.text {
+  opacity: 0.8;
+}
+
+.learnMoreWrapper {
+  align-items: baseline;
+}
+
+.learnMore {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 55px;
+  }
+
+  .subtitle {
+    opacity: 0.8;
+  }
+
+  .learnMore {
+    float: left;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-right: 10px;
+  }
+}

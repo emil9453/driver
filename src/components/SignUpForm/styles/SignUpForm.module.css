@@ -1,0 +1,37 @@
+.title {
+  font-size: 21px;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 14px;
+  margin-bottom: 2rem;
+}
+
+.link {
+  color: var(--link-color);
+}
+
+.link:hover {
+  color: var(--link-color-hover);
+}
+
+.phoneField {
+  width: 40%!important;
+  margin-left: 10px!important;
+}
+
+.termsAndConditions input {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.termsAndConditions label {
+  margin-left: 1rem;
+}
+
+.container .submit {
+  background-color: var(--primary-color);
+  padding: 15px 0px;
+  border: 0;
+}

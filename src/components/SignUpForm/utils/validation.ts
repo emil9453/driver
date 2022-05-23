@@ -1,0 +1,11 @@
+import * as yup from 'yup'
+const phoneRegExp = /^\d{6,9}$/
+export const validationSchema = yup
+  .object({
+    email: yup.string().email().required(),
+    phonePrefix: yup.number().required(),
+    phone: yup.string().matches(phoneRegExp, 'Phone number is not valid'),
+    city: yup.string().required(),
+    termsAndConditions: yup.boolean().oneOf([true], 'Must be Checked!')
+  })
+  .required()
